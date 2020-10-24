@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "tests": "cypress run --record --key e42353d6-15cc-4be0-923d-3038f51e7fd0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "cypress": "^5.4.0"
+    }
+}
