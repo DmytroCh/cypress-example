@@ -23,9 +23,9 @@ Scenarios source code you can find [here](https://github.com/DmytroCh/cypress-ex
 4. Validate that each result contains "Automation" in title
 
 ### Execution results
-![Execution results](https://github.com/DmytroCh/cypress-example/blob/main/cypress/images/run_results.png)
+![Execution results](https://github.com/DmytroCh/cypress-example/blob/main/cypress/images/run_result.png)
 
 ### Bug description
-[Careers page](https://github.com/DmytroCh/cypress-example/tree/main/cypress/integration/scenarios) contains more than one 'QA Automation Engineer' position.
+[Careers page](https://10clouds.com/careers/) contains more than one 'QA Automation Engineer' position.
 
 ![Issue](https://github.com/DmytroCh/cypress-example/blob/main/cypress/images/bug.png)
