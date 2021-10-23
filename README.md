@@ -8,9 +8,6 @@ This is an example of cypress project. You can see project's structure and some 
  2. Install required dependencies: `npm install`
  3. Run tests: `npm run tests`
 
-### Execution results
-![Execution results](https://github.com/DmytroCh/cypress-example/blob/main/cypress/images/run_results.png)
-
 # Scenarios
 Scenarios source code you can find [here](https://github.com/DmytroCh/cypress-example/tree/main/cypress/integration/scenarios).
 
@@ -24,3 +21,11 @@ Scenarios source code you can find [here](https://github.com/DmytroCh/cypress-ex
 2. Open Careers tab
 3. Type 'Automation' in Search jobs input
 4. Validate that each result contains "Automation" in title
+
+### Execution results
+![Execution results](https://github.com/DmytroCh/cypress-example/blob/main/cypress/images/run_results.png)
+
+### Bug description
+[Careers page](https://github.com/DmytroCh/cypress-example/tree/main/cypress/integration/scenarios) contains more than one 'QA Automation Engineer' position.
+
+![Issue](https://github.com/DmytroCh/cypress-example/blob/main/cypress/images/bug.png)
