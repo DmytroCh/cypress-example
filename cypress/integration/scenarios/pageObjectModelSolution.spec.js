@@ -14,9 +14,9 @@ describe('Scenarios', () => {
     })
     
     it('Scenario 2', () => {
-        careersPage.getSearch().type('Automation')
+        careersPage.selectDepartmentOption(careersPage.getDepartments().qa)
         careersPage.getOffers().each((item) => {
-            cy.wrap(item).should('contain.text', 'Automation')
+            cy.wrap(item).should('contain.text', 'QA')
         })
     })
 

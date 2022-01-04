@@ -18,8 +18,27 @@ class CareersPage {
         return this.getOffers().filter(`:contains(${title})`);
     }
 
-    getSearch() {
-        return cy.get('#job-offers-section input[type=text]');
+    selectDepartmentOption(option) {
+        cy.get('.select--desktop').find(`:contains(${this.getDepartments().all})`).click();
+        cy.get(".job-offers__search-row").find(`li:contains(${option})`).click();
+    }
+
+    getDepartments() {
+        /**
+         * All options available in departments dropbox
+         */
+        return {
+            all: "All departments",
+            web: "Web",
+            design: "Design",
+            devops: "DevOps",
+            sales: "Sales",
+            hr: "HR",
+            marketing: "Marketing",
+            productDeliveryManagment: "Product Delivery Management",
+            qa: "QA",
+            resourcing: "Resourcing"
+        }
     }
 }
 

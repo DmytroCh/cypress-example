@@ -19,8 +19,8 @@ Scenarios source code you can find [here](https://github.com/DmytroCh/cypress-ex
 ### Scenario 2
 1. Open 10C home page('https://10clouds.com/')
 2. Open Careers tab
-3. Type 'Automation' in Search jobs input
-4. Validate that each result contains "Automation" in title
+3. Select 'QA' department in dropbox
+4. Validate that each result contains "QA" in title
 
 ### Execution results
 ![Execution results](https://github.com/DmytroCh/cypress-example/blob/main/cypress/images/run_result.png)
